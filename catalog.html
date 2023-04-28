@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Каталог</title>
+</head>
+<body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(86593878, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/86593878" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="left-btns">
+                    <div class="btn home"><a href="index.html"><img src="img/home.png" alt=""></a></div>
+                    <div class="btn"><a href="catalog.html"><img src="img/list.png" alt="" class="btn-img">Каталог</a></div>
+                </div>
+                <div class="search">
+                    <img src="img/search.png" alt="">
+                    <input type="text">
+                </div>
+                <div class="right-btns">
+                    <div class="btn"><a href="reviews.html"><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
+                    <div class="btn cart-btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="all-categories">
+        <div class="wrapper categories-block">
+            <div class="choice-category active" data-type="dry">
+                <img src="img/default.png" alt="">
+                <div><a href="#">Роботы пылесосы</a></div>
+            </div>
+            <div class="choice-category"  data-type='wet'>
+                <img src="img/water.png" alt="">
+                <div><a href="#">Роботы для влажной уборкой</a></div>
+            </div>
+            <div class="choice-category" data-type='lawn'>
+                <img src="img/lawn.png" alt="">
+                <div><a href="#">Роботы газонокосилки</a></div>
+            </div>
+            <div class="choice-category" data-type="swimmingpool">
+                <img src="img/swimmingpool.png" alt="">
+                <div><a href="#">Роботы для бассейнов</a></div>
+            </div>
+            <div class="choice-category" data-type="window">
+                <img src="img/window.png" alt="">
+                <div><a href="#">Роботы для окон</a></div>
+            </div>
+            <div class="choice-category last-cat" data-type="acses">
+                <img src="img/acses.jpg" alt="">
+                <div><a href="#">Аксессуары</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="list-products">
+        <div class="wrapper">
+            <div class="title">Роботы пылесосы</div>
+            <div class="sort">
+                <!-- <div class="sort-choice">
+                    <div>Сортировать:</div>
+                    <div class="sort-active">По цене &#9650;</div>
+                    <div>По названию</div>
+                    <div>По рейтингу</div>
+                </div> -->
+                <div class="products-amount">
+                    Найдено товаров: <span>30</span>
+                </div>
+            </div>
+            <div class="products">
+                <!-- <div class="product">
+                    <img src="img/product.png" alt="">
+                    <div class="name">Roomba 698</div>
+                    <div class="descr">робот-пылесос для сухой уборки </div>
+                    <div class="price">44 990₽</div>
+                    <div class="btn buy"><a href="#">В корзину</a></div>
+                </div>
+                <div class="product">
+                    <img src="img/product.png" alt="">
+                    <div class="name">Roomba 698</div>
+                    <div class="descr">робот-пылесос для сухой уборки </div>
+                    <div class="price">44 990₽</div>
+                    <div class="btn buy"><a href="#">В корзину</a></div>
+                </div>
+                <div class="product">
+                    <img src="img/product.png" alt="">
+                    <div class="name">Roomba 698</div>
+                    <div class="descr">робот-пылесос для сухой уборки </div>
+                    <div class="price">44 990₽</div>
+                    <div class="btn buy"><a href="#">В корзину</a></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper footer-blocks">
+            <div class="shop-name">
+                Интернет магазин RCleaner
+            </div>
+            <div class="btn-links">
+                <a href="catalog.html">Каталог товаров</a>
+                <a href="cart.html">Корзина</a>
+                <a href="news.html">Новости</a>
+            </div>
+            <div class="shop-contants">
+                <div><b>Наши данные:</b></div>
+                <div class="nubmer">Наш номер телефона: <b>+79185224308</b></div>
+                <div class="mail">Наша почта: <b>w1llhorn@yandex.ru</b></div>
+            </div>
+        </div>
+    </footer>
+    <script src="database.js"></script>
+    <script src="catalog.js"></script>
+    <script src="buy.js"></script>
+    <script src="cartProductsAmount.js"></script>
+</body>
+</html>
